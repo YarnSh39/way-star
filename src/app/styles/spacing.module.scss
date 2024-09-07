@@ -1,0 +1,59 @@
+// Rounding Tokens
+$rounding-none: 0px;
+$rounding-xs: 4px;
+$rounding-sm: 6px;
+$rounding-normal: 8px;
+$rounding-md: 12px;
+$rounding-lg: 16px;
+$rounding-xl: 20px;
+$rounding-xxl: 24px;
+$rounding-full: 100%;
+
+// Spacing Tokens
+$spacing-none: 0px;
+$spacing-0-5: 4px;
+$spacing-1: 8px;
+$spacing-1-5: 12px;
+$spacing-2: 16px;
+$spacing-2-5: 20px;
+$spacing-3: 24px;
+$spacing-4: 32px;
+$spacing-5: 40px;
+$spacing-6: 48px;
+$spacing-7: 56px;
+$spacing-8: 64px;
+$spacing-9: 80px;
+$spacing-10: 96px;
+$spacing-11: 112px;
+$spacing-12: 168px;
+$spacing-13: 224px;
+
+:export {
+  roundingNone: $rounding-none;
+  roundingXs: $rounding-xs;
+  roundingSm: $rounding-sm;
+  roundingNormal: $rounding-normal;
+  roundingMd: $rounding-md;
+  roundingLg: $rounding-lg;
+  roundingXl: $rounding-xl;
+  roundingXxl: $rounding-xxl;
+  roundingFull: $rounding-full;
+
+  spacingNone: $spacing-none;
+  spacing0_5: $spacing-0-5;
+  spacing1: $spacing-1;
+  spacing1_5: $spacing-1-5;
+  spacing2: $spacing-2;
+  spacing2_5: $spacing-2-5;
+  spacing3: $spacing-3;
+  spacing4: $spacing-4;
+  spacing5: $spacing-5;
+  spacing6: $spacing-6;
+  spacing7: $spacing-7;
+  spacing8: $spacing-8;
+  spacing9: $spacing-9;
+  spacing10: $spacing-10;
+  spacing11: $spacing-11;
+  spacing12: $spacing-12;
+  spacing13: $spacing-13;
+}

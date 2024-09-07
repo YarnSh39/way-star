@@ -1,0 +1,108 @@
+// Neutral Colors
+$neutral-100: white;
+$neutral-200: #f8f8f8;
+$neutral-300: #f4f4f4;
+$neutral-400: #d9d9d9;
+$neutral-500: #818181;
+$neutral-600: #4e4e4f;
+$neutral-700: #1c1c1c;
+$neutral-800: #070707;
+
+// System Colors (Green)
+$system-green-100: #def2e6;
+$system-green-200: #7fdca4;
+$system-green-300: #05c168;
+$system-green-400: #11845b;
+
+// System Colors (Blue)
+$system-blue-100: #eaf4ff;
+$system-blue-200: #8fc3ff;
+$system-blue-300: #1d88fe;
+$system-blue-400: #086cd9;
+
+// System Colors (Red)
+$system-red-100: #ffeff0;
+$system-red-200: #ffbec2;
+$system-red-300: #ff5a65;
+$system-red-400: #dc2b2b;
+
+// System Colors (Orange)
+$system-orange-100: #fff3e4;
+$system-orange-200: #ffd19b;
+$system-orange-300: #ff9e2c;
+$system-orange-400: #d5691b;
+
+// General Shadows
+$general-shadow-01: rgba(20, 20, 43, 0.06);
+$general-shadow-02: rgba(2, 2, 2, 0.08);
+$general-shadow-03: rgba(20, 20, 43, 0.1);
+$general-shadow-04: rgba(20, 20, 43, 0.14);
+$general-shadow-05: rgba(20, 20, 43, 0.16);
+$general-shadow-06: rgba(20, 20, 43, 0.24);
+
+// Button Shadows
+$button-shadow-white-01: rgba(20, 20, 43, 0.04);
+$button-shadow-white-02: rgba(20, 20, 43, 0.06);
+$button-shadow-white-03: rgba(20, 20, 43, 0.1);
+$button-shadow-color-01: rgba(74, 58, 255, 0.06);
+$button-shadow-color-02: rgba(74, 58, 255, 0.08);
+$button-shadow-color-03: rgba(74, 58, 255, 0.08);
+
+// Primary Color
+$primary-color: #b39c36;
+
+// Exporting SCSS variables for JavaScript usage
+:export {
+  // Neutral Colors
+  neutral100: $neutral-100;
+  neutral200: $neutral-200;
+  neutral300: $neutral-300;
+  neutral400: $neutral-400;
+  neutral500: $neutral-500;
+  neutral600: $neutral-600;
+  neutral700: $neutral-700;
+  neutral800: $neutral-800;
+
+  // System Colors (Green)
+  systemGreen100: $system-green-100;
+  systemGreen200: $system-green-200;
+  systemGreen300: $system-green-300;
+  systemGreen400: $system-green-400;
+
+  // System Colors (Blue)
+  systemBlue100: $system-blue-100;
+  systemBlue200: $system-blue-200;
+  systemBlue300: $system-blue-300;
+  systemBlue400: $system-blue-400;
+
+  // System Colors (Red)
+  systemRed100: $system-red-100;
+  systemRed200: $system-red-200;
+  systemRed300: $system-red-300;
+  systemRed400: $system-red-400;
+
+  // System Colors (Orange)
+  systemOrange100: $system-orange-100;
+  systemOrange200: $system-orange-200;
+  systemOrange300: $system-orange-300;
+  systemOrange400: $system-orange-400;
+
+  // General Shadows
+  generalShadow01: $general-shadow-01;
+  generalShadow02: $general-shadow-02;
+  generalShadow03: $general-shadow-03;
+  generalShadow04: $general-shadow-04;
+  generalShadow05: $general-shadow-05;
+  generalShadow06: $general-shadow-06;
+
+  // Button Shadows
+  buttonShadowWhite01: $button-shadow-white-01;
+  buttonShadowWhite02: $button-shadow-white-02;
+  buttonShadowWhite03: $button-shadow-white-03;
+  buttonShadowColor01: $button-shadow-color-01;
+  buttonShadowColor02: $button-shadow-color-02;
+  buttonShadowColor03: $button-shadow-color-03;
+
+  // Primary Color
+  primaryColor: $primary-color;
+}

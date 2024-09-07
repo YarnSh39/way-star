@@ -1,0 +1,64 @@
+@import "../../styles/colors.module.scss";
+@import "../../styles/spacing.module.scss";
+
+.navbar {
+  position: fixed;
+  top: 0;
+  top: 20px;
+  left: 50px;
+  right: 50px;
+  background-color: rgba(105, 75, 75, 0.8);
+  color: $neutral-100;
+  z-index: 1000;
+  padding: 1rem 0;
+  border-radius: 50px;
+
+  .navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .logo {
+      img {
+        width: 50px;
+      }
+    }
+
+    .navLinks {
+      display: flex;
+      list-style: none;
+
+      li {
+        margin: 0 1rem;
+
+        a {
+          color: $neutral-100;
+          text-decoration: none;
+          transition: color 0.3s;
+
+          &:hover {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+
+    .navButton {
+      .loginButton {
+        padding: 0.5rem 1rem;
+        background-color: $neutral-700;
+        color: $neutral-100;
+        border-radius: $rounding-sm;
+        text-decoration: none;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: $neutral-600;
+        }
+      }
+    }
+  }
+}
